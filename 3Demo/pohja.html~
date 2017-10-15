@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="http://appro.mit.jyu.fi/tiea2120/vt/vt3/data.js"></script>
+    <script type="text/javascript" src="vt3.js"></script>
+    <link rel="StyleSheet" href="tyylit.css" type="text/css"/>
+    <meta charset="utf-8"/>
+    <title>Tulospalvelu</title>
+</head>
+<body>
+
+<!-- Tämän tiedoston sisältöä saa muuttaa vapaasti tästä kommentista eteenpäin ! -->
+
+<form>
+  <fieldset id="kentta">
+    <div class="padding"><label>Nimi</label>                                             <input class="right" id="jNimi"  type="text"/></div>
+    <div class="paddingBottom"><label>Luontiaika</label>                                 <input class="right" id="jLuotiaika" type="datetime-local"/></div>
+    
+    <div class="padding"><label>Leimaustapa</label>         <label class="right">GPS     <input id="jGPS" type="checkbox"/></label></div>
+    <div class="padding">                                   <label class="right">NFC     <input id="jNFC" type="checkbox"/></label></div>
+    <div class="padding">                                   <label class="right">QR      <input id="jQR" type="checkbox"/></label></div>
+    <div class="paddingBottom">                             <label class="right">Lomake  <input id="jLomake" type="checkbox"/></label></div>
+
+    <div id="loppu"></div>
+  </fieldset>
+</form>
+
+<!-- <div class="padding"><label>Sarja</label>               <label class="right">2h      <input name="jSarja" type="radio" checked="true"/></label></div>
+<div class="padding">                                   <label class="right">4h      <input name="jSarja" type="radio"/></label></div>
+<div class="padding">                                   <label class="right">8h      <input name="jSarja" type="radio"/></label></div> -->
+
+<fieldset>
+    <legend>Jäsenet</legend>
+    <div class="padding"><label id="Jasen1">Jäsen 1 </label><input class="right" type="text" value=""/></div>
+    <div class="padding"><label id="Jasen2">Jäsen 2 </label><input class="right" type="text" value=""/></div>
+    <div class="padding"><label id="Jasen3">Jäsen 3 </label><input class="right" type="text" value=""/></div>
+    <div class="padding"><label id="Jasen4">Jäsen 4 </label><input class="right" type="text" value=""/></div>
+    <div class="padding"><label id="Jasen5">Jäsen 5 </label><input class="right" type="text" value=""/></div>
+</fieldset>
+<p>
+    <button name="tallena" id="tallenna">Tallenna</button>
+</p>
+</body>
+</html>

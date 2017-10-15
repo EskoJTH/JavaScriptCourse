@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="969af713-eff9-4d32-90ca-7179b951e854" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="pohja.html" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/pohja.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="782">
+                    <caret line="46" column="83" lean-forward="true" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/data.json">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="102">
+                    <caret line="3385" column="1" lean-forward="true" selection-start-line="3385" selection-start-column="1" selection-end-line="3385" selection-end-column="1" />
+                    <folding>
+                      <element signature="n#!!block;n#kisatiedot#0;n#!!top" expanded="false" />
+                      <element signature="e#214#11969#0" expanded="false" />
+                      <element signature="e#11983#12545#0" expanded="false" />
+                      <element signature="e#12562#76531#0" expanded="false" />
+                      <element signature="e#16523#18122#0" expanded="false" />
+                      <element signature="e#18128#23538#0" expanded="false" />
+                      <element signature="e#23544#27738#0" expanded="false" />
+                      <element signature="e#27744#36279#0" expanded="false" />
+                      <element signature="e#36188#36226#0" expanded="false" />
+                      <element signature="e#36285#40733#0" expanded="false" />
+                      <element signature="e#36491#40567#0" expanded="false" />
+                      <element signature="e#40739#44609#0" expanded="false" />
+                      <element signature="e#44615#46262#0" expanded="false" />
+                      <element signature="e#46268#50451#0" expanded="false" />
+                      <element signature="e#50457#53138#0" expanded="false" />
+                      <element signature="e#53144#54997#0" expanded="false" />
+                      <element signature="e#55003#58686#0" expanded="false" />
+                      <element signature="e#58692#60212#0" expanded="false" />
+                      <element signature="e#58742#58803#0" expanded="false" />
+                      <element signature="e#60218#63565#0" expanded="false" />
+                      <element signature="e#63571#66438#0" expanded="false" />
+                      <element signature="e#66444#70127#0" expanded="false" />
+                      <element signature="e#70133#70499#0" expanded="false" />
+                      <element signature="e#70505#73155#0" expanded="false" />
+                      <element signature="e#73161#73477#0" expanded="false" />
+                      <element signature="e#73483#73814#0" expanded="false" />
+                      <element signature="e#73820#74151#0" expanded="false" />
+                      <element signature="e#74157#74502#0" expanded="false" />
+                      <element signature="e#74508#76527#0" expanded="false" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="vertical" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="vt3.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/vt3.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="139">
+                  <caret line="247" column="5" lean-forward="true" selection-start-line="247" selection-start-column="5" selection-end-line="247" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tyylit.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tyylit.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/data.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="22423">
+                  <caret line="3385" column="1" lean-forward="false" selection-start-line="3385" selection-start-column="1" selection-end-line="3385" selection-end-column="1" />
+                  <folding>
+                    <element signature="n#!!block;n#kisatiedot#0;n#!!top" expanded="false" />
+                    <element signature="e#214#11969#0" expanded="false" />
+                    <element signature="e#11983#12545#0" expanded="false" />
+                    <element signature="e#16523#18122#0" expanded="false" />
+                    <element signature="e#18128#23538#0" expanded="false" />
+                    <element signature="e#23544#27738#0" expanded="false" />
+                    <element signature="e#27744#36279#0" expanded="false" />
+                    <element signature="e#36188#36226#0" expanded="false" />
+                    <element signature="e#36285#40733#0" expanded="false" />
+                    <element signature="e#36491#40567#0" expanded="false" />
+                    <element signature="e#40739#44609#0" expanded="false" />
+                    <element signature="e#44615#46262#0" expanded="false" />
+                    <element signature="e#46268#50451#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="vt3.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/vt3.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="tsconfig.json" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>consol</find>
+      <find>setCustomValidity</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../2Demo/pohja.html" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/data.json" />
+        <option value="H:/projects/ITKP101WordiKurssiKorohoro/vastaukset/tyyli.css" />
+        <option value="$PROJECT_DIR$/pohja.html" />
+        <option value="$PROJECT_DIR$/tyylit.css" />
+        <option value="$PROJECT_DIR$/vt3.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-7" />
+    <option name="width" value="852" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="3Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3Demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="H:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.pohja.html">
+    <configuration name="pohja.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/3Demo/pohja.html" />
+    <configuration name="vt3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="vt3.js" working-dir="$PROJECT_DIR$" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.pohja.html" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.vt3.js" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.pohja.html" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.vt3.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="969af713-eff9-4d32-90ca-7179b951e854" name="Default" comment="" />
+      <created>1507310013204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1507310013204</updated>
+      <workItem from="1507310014378" duration="8088000" />
+      <workItem from="1507804836642" duration="16191000" />
+      <workItem from="1507895642035" duration="5369000" />
+      <workItem from="1508081816140" duration="19711000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="49359000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="852" height="1047" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1854067" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32841823" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13914849" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pohja.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3385" column="1" lean-forward="false" selection-start-line="3385" selection-start-column="1" selection-end-line="3385" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#kisatiedot#0;n#!!top" expanded="false" />
+            <element signature="e#214#11969#0" expanded="false" />
+            <element signature="e#11983#12545#0" expanded="false" />
+            <element signature="e#12562#76531#0" expanded="false" />
+            <element signature="e#16523#18122#0" expanded="false" />
+            <element signature="e#18128#23538#0" expanded="false" />
+            <element signature="e#23544#27738#0" expanded="false" />
+            <element signature="e#27744#36279#0" expanded="false" />
+            <element signature="e#36188#36226#0" expanded="false" />
+            <element signature="e#36285#40733#0" expanded="false" />
+            <element signature="e#36491#40567#0" expanded="false" />
+            <element signature="e#40739#44609#0" expanded="false" />
+            <element signature="e#44615#46262#0" expanded="false" />
+            <element signature="e#46268#50451#0" expanded="false" />
+            <element signature="e#50457#53138#0" expanded="false" />
+            <element signature="e#53144#54997#0" expanded="false" />
+            <element signature="e#55003#58686#0" expanded="false" />
+            <element signature="e#58692#60212#0" expanded="false" />
+            <element signature="e#58742#58803#0" expanded="false" />
+            <element signature="e#60218#63565#0" expanded="false" />
+            <element signature="e#63571#66438#0" expanded="false" />
+            <element signature="e#66444#70127#0" expanded="false" />
+            <element signature="e#70133#70499#0" expanded="false" />
+            <element signature="e#70505#73155#0" expanded="false" />
+            <element signature="e#73161#73477#0" expanded="false" />
+            <element signature="e#73483#73814#0" expanded="false" />
+            <element signature="e#73820#74151#0" expanded="false" />
+            <element signature="e#74157#74502#0" expanded="false" />
+            <element signature="e#74508#76527#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pohja.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="68" lean-forward="false" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3385" column="1" lean-forward="false" selection-start-line="3385" selection-start-column="1" selection-end-line="3385" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#kisatiedot#0;n#!!top" expanded="false" />
+            <element signature="e#214#11969#0" expanded="false" />
+            <element signature="e#11983#12545#0" expanded="false" />
+            <element signature="e#12562#76531#0" expanded="false" />
+            <element signature="e#16523#18122#0" expanded="false" />
+            <element signature="e#18128#23538#0" expanded="false" />
+            <element signature="e#23544#27738#0" expanded="false" />
+            <element signature="e#27744#36279#0" expanded="false" />
+            <element signature="e#36188#36226#0" expanded="false" />
+            <element signature="e#36285#40733#0" expanded="false" />
+            <element signature="e#36491#40567#0" expanded="false" />
+            <element signature="e#40739#44609#0" expanded="false" />
+            <element signature="e#44615#46262#0" expanded="false" />
+            <element signature="e#46268#50451#0" expanded="false" />
+            <element signature="e#50457#53138#0" expanded="false" />
+            <element signature="e#53144#54997#0" expanded="false" />
+            <element signature="e#55003#58686#0" expanded="false" />
+            <element signature="e#58692#60212#0" expanded="false" />
+            <element signature="e#58742#58803#0" expanded="false" />
+            <element signature="e#60218#63565#0" expanded="false" />
+            <element signature="e#63571#66438#0" expanded="false" />
+            <element signature="e#66444#70127#0" expanded="false" />
+            <element signature="e#70133#70499#0" expanded="false" />
+            <element signature="e#70505#73155#0" expanded="false" />
+            <element signature="e#73161#73477#0" expanded="false" />
+            <element signature="e#73483#73814#0" expanded="false" />
+            <element signature="e#73820#74151#0" expanded="false" />
+            <element signature="e#74157#74502#0" expanded="false" />
+            <element signature="e#74508#76527#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2Demo/pohja.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/projects/ITKP101WordiKurssiKorohoro/vastaukset/tyyli.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2Demo/vt2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9877">
+          <caret line="581" column="0" lean-forward="false" selection-start-line="581" selection-start-column="0" selection-end-line="583" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pohja.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="98" lean-forward="true" selection-start-line="21" selection-start-column="98" selection-end-line="21" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3385" column="1" lean-forward="true" selection-start-line="3385" selection-start-column="1" selection-end-line="3385" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#kisatiedot#0;n#!!top" expanded="false" />
+            <element signature="e#214#11969#0" expanded="false" />
+            <element signature="e#11983#12545#0" expanded="false" />
+            <element signature="e#12562#76531#0" expanded="false" />
+            <element signature="e#16523#18122#0" expanded="false" />
+            <element signature="e#18128#23538#0" expanded="false" />
+            <element signature="e#23544#27738#0" expanded="false" />
+            <element signature="e#27744#36279#0" expanded="false" />
+            <element signature="e#36188#36226#0" expanded="false" />
+            <element signature="e#36285#40733#0" expanded="false" />
+            <element signature="e#36491#40567#0" expanded="false" />
+            <element signature="e#40739#44609#0" expanded="false" />
+            <element signature="e#44615#46262#0" expanded="false" />
+            <element signature="e#46268#50451#0" expanded="false" />
+            <element signature="e#50457#53138#0" expanded="false" />
+            <element signature="e#53144#54997#0" expanded="false" />
+            <element signature="e#55003#58686#0" expanded="false" />
+            <element signature="e#58692#60212#0" expanded="false" />
+            <element signature="e#58742#58803#0" expanded="false" />
+            <element signature="e#60218#63565#0" expanded="false" />
+            <element signature="e#63571#66438#0" expanded="false" />
+            <element signature="e#66444#70127#0" expanded="false" />
+            <element signature="e#70133#70499#0" expanded="false" />
+            <element signature="e#70505#73155#0" expanded="false" />
+            <element signature="e#73161#73477#0" expanded="false" />
+            <element signature="e#73483#73814#0" expanded="false" />
+            <element signature="e#73820#74151#0" expanded="false" />
+            <element signature="e#74157#74502#0" expanded="false" />
+            <element signature="e#74508#76527#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tyylit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2Demo/pohja.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="107" column="3" lean-forward="true" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2Demo/vt2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/projects/ITKP101WordiKurssiKorohoro/vastaukset/tyyli.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vt3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2Demo/pohja.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/projects/ITKP101WordiKurssiKorohoro/vastaukset/tyyli.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2Demo/vt2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="570" column="10" lean-forward="false" selection-start-line="570" selection-start-column="9" selection-end-line="570" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3385" column="1" lean-forward="true" selection-start-line="3385" selection-start-column="1" selection-end-line="3385" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#kisatiedot#0;n#!!top" expanded="false" />
+            <element signature="e#214#11969#0" expanded="false" />
+            <element signature="e#11983#12545#0" expanded="false" />
+            <element signature="e#12562#76531#0" expanded="false" />
+            <element signature="e#16523#18122#0" expanded="false" />
+            <element signature="e#18128#23538#0" expanded="false" />
+            <element signature="e#23544#27738#0" expanded="false" />
+            <element signature="e#27744#36279#0" expanded="false" />
+            <element signature="e#36188#36226#0" expanded="false" />
+            <element signature="e#36285#40733#0" expanded="false" />
+            <element signature="e#36491#40567#0" expanded="false" />
+            <element signature="e#40739#44609#0" expanded="false" />
+            <element signature="e#44615#46262#0" expanded="false" />
+            <element signature="e#46268#50451#0" expanded="false" />
+            <element signature="e#50457#53138#0" expanded="false" />
+            <element signature="e#53144#54997#0" expanded="false" />
+            <element signature="e#55003#58686#0" expanded="false" />
+            <element signature="e#58692#60212#0" expanded="false" />
+            <element signature="e#58742#58803#0" expanded="false" />
+            <element signature="e#60218#63565#0" expanded="false" />
+            <element signature="e#63571#66438#0" expanded="false" />
+            <element signature="e#66444#70127#0" expanded="false" />
+            <element signature="e#70133#70499#0" expanded="false" />
+            <element signature="e#70505#73155#0" expanded="false" />
+            <element signature="e#73161#73477#0" expanded="false" />
+            <element signature="e#73483#73814#0" expanded="false" />
+            <element signature="e#73820#74151#0" expanded="false" />
+            <element signature="e#74157#74502#0" expanded="false" />
+            <element signature="e#74508#76527#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tyylit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vt3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="247" column="5" lean-forward="true" selection-start-line="247" selection-start-column="5" selection-end-line="247" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pohja.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="83" lean-forward="true" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
