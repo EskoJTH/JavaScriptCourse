@@ -20,8 +20,8 @@
             <file leaf-file-name="pohja.html" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/pohja.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="782">
-                    <caret line="46" column="83" lean-forward="true" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
+                  <state relative-caret-position="425">
+                    <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
                     <folding />
                   </state>
                 </provider>
@@ -80,8 +80,11 @@
             <entry file="file://$PROJECT_DIR$/vt3.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="139">
-                  <caret line="247" column="5" lean-forward="true" selection-start-line="247" selection-start-column="5" selection-end-line="247" selection-end-column="5" />
-                  <folding />
+                  <caret line="286" column="5" lean-forward="true" selection-start-line="286" selection-start-column="5" selection-end-line="286" selection-end-column="5" />
+                  <folding>
+                    <marker date="1508108228710" expanded="true" signature="5004:5005" ph="/** tarkastaa onko jo olemassa saman niminen joukkue kuin annetulla Elementillä. ...*/" />
+                    <marker date="1508108228710" expanded="true" signature="5451:5453" ph="/** Leimaustapoja on valittava vähintään yksi ...*/" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -89,8 +92,8 @@
           <file leaf-file-name="tyylit.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tyylit.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -127,8 +130,8 @@
           <file leaf-file-name="vt3.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/vt3.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+                <state relative-caret-position="170">
+                  <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -159,9 +162,9 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/data.json" />
         <option value="H:/projects/ITKP101WordiKurssiKorohoro/vastaukset/tyyli.css" />
-        <option value="$PROJECT_DIR$/pohja.html" />
         <option value="$PROJECT_DIR$/tyylit.css" />
         <option value="$PROJECT_DIR$/vt3.js" />
+        <option value="$PROJECT_DIR$/pohja.html" />
       </list>
     </option>
   </component>
@@ -178,7 +181,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="852" />
     <option name="height" value="1047" />
@@ -264,15 +267,15 @@
       <workItem from="1507310014378" duration="8088000" />
       <workItem from="1507804836642" duration="16191000" />
       <workItem from="1507895642035" duration="5369000" />
-      <workItem from="1508081816140" duration="19711000" />
+      <workItem from="1508081816140" duration="20895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49359000" />
+    <option name="totallyTimeSpent" value="50543000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="852" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="852" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1854067" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -496,7 +499,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="590">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1508108228710" expanded="true" signature="5004:5005" ph="/** tarkastaa onko jo olemassa saman niminen joukkue kuin annetulla Elementillä. ...*/" />
+            <marker date="1508108228710" expanded="true" signature="5451:5453" ph="/** Leimaustapoja on valittava vähintään yksi ...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -559,26 +565,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tyylit.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vt3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
-          <caret line="247" column="5" lean-forward="true" selection-start-line="247" selection-start-column="5" selection-end-line="247" selection-end-column="5" />
+          <caret line="286" column="5" lean-forward="true" selection-start-line="286" selection-start-column="5" selection-end-line="286" selection-end-column="5" />
+          <folding>
+            <marker date="1508108228710" expanded="true" signature="5004:5005" ph="/** tarkastaa onko jo olemassa saman niminen joukkue kuin annetulla Elementillä. ...*/" />
+            <marker date="1508108228710" expanded="true" signature="5451:5453" ph="/** Leimaustapoja on valittava vähintään yksi ...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tyylit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pohja.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="83" lean-forward="true" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
+        <state relative-caret-position="425">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding />
         </state>
       </provider>

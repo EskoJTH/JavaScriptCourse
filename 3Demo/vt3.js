@@ -26,8 +26,8 @@ window.onload = function () {
  * Joukkueen jäsenen nimi ei saa olla tyhjä
  * Joukkueelle on keksittävä automaattisesti id
  * Jäseniä on syötettävä vähintään kaksi setCustomValidity()
+ * @returns {boolean} onnisuiko valodointi
  */
-
 function nameCheckLite() {
     let nameBoxes = document.getElementsByClassName("rightBoxName");
     let nimet = [];
@@ -46,6 +46,10 @@ function nameCheckLite() {
     return true;
 }
 
+/**
+ * erona Lite versioon että näyttää ilmoituksen validoinnin epä onnistuessa.
+ * @returns {boolean} onnisuiko valodointi
+ */
 function nameCheck() {
     let nameBoxes = document.getElementsByClassName("rightBoxName");
     let nimet = [];
@@ -67,7 +71,7 @@ function nameCheck() {
 }
 
 /**
- * onnistuu vain kun nimet sopivia (validoitu etukäteen?)
+ * onnistuu vain kun nimet sopivia.
  * lopussa oleva listaus joukkueista päivitettävä
  * joukkue lisättävä dataan.
  */
@@ -97,6 +101,10 @@ function buttonClick() {
     }
 }
 
+/**
+ * hakee nimen mukaisen datan
+ * @returns {string|*|string} palauttaa listan stringgejä.
+ */
 function getSarja() {
     let list = document.getElementsByClassName("sarjaRadio");
     for (i of list) {
@@ -104,6 +112,10 @@ function getSarja() {
     }
 }
 
+/**
+ * luo !REKURSIIVISESTI! id numeron.
+ * @returns {number} id numero.
+ */
 function getID() {
     let id = Math.floor(4294967295 * Math.Random);
     for (let i of data.joukkueet) {
@@ -114,11 +126,19 @@ function getID() {
     return id;
 }
 
+/**
+ * valodoi päivämäärän
+ * @returns {boolean} palauttaa onko validi.
+ */
 function pvmValidate() {
     let timeElem = document.getElementById("jLuotiaika");
     return timeElem.validity.valid;
 }
 
+/**
+ * validoi joukkueen nimen.
+ * @returns {boolean} palauttaa oliko validi.
+ */
 function joukkueValidate() {
     let nimi = document.getElementById("jNimi");
     if (!nimi.value || nimi.value.toString().trim() === "") {
@@ -138,6 +158,11 @@ function joukkueValidate() {
 
 }
 
+/**
+ * Validoi joukkueen lite versio. tekee samaa kuin edellinen funktio mutta ei tulosta
+ * validointiin liittyen ilmoitusta.
+ * @returns {boolean} palauttaa onnistuiko.
+ */
 function joukkueValidateLite() {
     let nimi = document.getElementById("jNimi");
     if (!nimi.value || nimi.value.toString().trim() === "") {
@@ -158,6 +183,7 @@ function joukkueValidateLite() {
 /**
  * tarkastaa onko jo olemassa saman niminen joukkue kuin annetulla Elementillä.
  * @param element elementti jonka valueta verrataan.
+ * @param element elementtti jota tutkitaan
  * @returns {boolean} löytyikö?
  */
 function tarkistOnkoTupla(element) {
@@ -171,6 +197,8 @@ function tarkistOnkoTupla(element) {
 
 /**
  * Leimaustapoja on valittava vähintään yksi
+ * validoi leimaukset
+ * @returns {boolean} palauttaa onnistuiko.
  */
 function leimausValidate() {
     let checkBoxes = document.getElementsByClassName("checkboxes");
@@ -190,6 +218,9 @@ function leimausValidate() {
     return false;
 }
 
+/**
+ * Luo html elementit datasta eri sarjoille.
+ */
 function loadRastit() {
     let viimeinenElementti = document.getElementById("loppu");
     let eka = true;
@@ -223,10 +254,18 @@ function loadRastit() {
     }
 }
 
+/**
+ * inserttaa elemnetin jontakin elementtiä seuraavaksi elementiksi.
+ * @param newNode uusi elementti.
+ * @param referenceNode elementti josta seuraavaksi uusi elementti pistetään.
+ */
 function insertAfter(newNode, referenceNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
 
+/**
+ * Lisää sivun loppuun listauksen joukkueiden nimistä aakkosjärjestyksessä.
+ */
 function showJoukkue() {
     let field = document.createElement("fieldset");
     field.id = "joukkueLista";
@@ -251,6 +290,12 @@ function showJoukkue() {
     insertAfter(field, last);
 }
 
+/**
+ * vertailee ovatko kaksi alkiota minkälaisessa aakkosjärjestykessä.
+ * @param a eka alkio jota verrataan.
+ * @param b toka alkio jota verrataan.
+ * @returns {number} palauttaa järjestysksen.
+ */
 function lovercaseSort(a,b){
     return a.localeCompare(b, 'fi', {"sensitivity": "base"});
 }
