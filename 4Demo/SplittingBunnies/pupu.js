@@ -12,7 +12,18 @@ let owlLocation = {};
 owlLocation.x = 0;
 owlLocation.y = 0;
 
+//loads the picture so that it is ready when needed.
+let beam = document.createElement("img");
+let newImg = new Image;
+newImg.onload = function() {
+    beam.src = this.src;
+};
+newImg.src = "palikka.svg";
+
+
+
 window.onload = function() {
+
     addBeams(20, 0);
 };
 
