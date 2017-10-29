@@ -1,0 +1,145 @@
+#owlCanvas {
+    animation-duration: 5s;
+    animation-name: polloLentaa;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.palkit {
+    left: 0;
+    top: -100px;
+    width: 100%;
+    height: 100px;
+    display: block;
+    position: fixed;
+    animation-duration: 10s;
+    animation-name: palikkaFrames;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+
+@keyframes palikkaFrames {
+    from {
+        position: fixed;
+        top: 0;
+    }
+
+    50% {
+        transform: translatey(-50px);
+        position: fixed;
+        top: 100%;
+    }
+
+    to {
+        position: fixed;
+
+        top: 0;
+    }
+}
+
+
+#leftBunnyCanvas {
+    animation-duration: 6s;
+    animation-name: leftBunny;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#rightBunnyCanvas{
+    animation-duration: 6s;
+    animation-name: rightBunny;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes leftBunny {
+    from {
+        position: fixed;
+        top: 10%;
+        transform: translateX(-192px);
+        left: 100%;
+    }
+
+    50% {
+        position: fixed;
+        top: 10%;
+        transform: translateX(-1px);
+        left: 50%;
+    }
+
+    to {
+        position: fixed;
+        top: 10%;
+        transform: translateX(-192px);
+        left: 100%;
+    }
+}
+
+@keyframes rightBunny {
+    from {
+        position: fixed;
+        top: 10%;
+        left: 0;
+    }
+
+    50% {
+        position: fixed;
+        top: 10%;
+        transform: translateX(-192px);
+        left: 50%;
+    }
+
+
+    to {
+        position: fixed;
+        top: 10%;
+        left: 0;
+    }
+}
+
+@keyframes polloLentaa {
+
+    from {
+        position: fixed;
+        top: 0;
+        left: 50%;
+    }
+
+    25% {
+        position: fixed;
+        top: 50%;
+        transform: translateX(-93px);
+        left: 100%;
+
+    }
+
+    50% {
+        position: fixed;
+        top: 100%;
+        transform: translateY(-95px);
+        left: 50%;
+
+    }
+
+    75% {
+        position: fixed;
+        top: 50%;
+        left: 0;
+    }
+
+    to {
+        position: fixed;
+        top: 0;
+        left: 50%;
+    }
+}
+
+.palkkiCanvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
