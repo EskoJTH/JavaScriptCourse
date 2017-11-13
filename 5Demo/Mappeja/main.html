@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="StyleSheet" href="stylesheet.css" type="text/css"/>
+
+    <script src="jquery.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+          integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+          crossorigin=""/>
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+            integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+            crossorigin=""></script>
+
+    <script type="text/javascript" src="http://appro.mit.jyu.fi/tiea2120/vt/vt3/data.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="topContainer">
+    <div class="sidewaysDivs" id="mapid"></div>
+    <script src="map.js"></script>
+    <div class="sidewaysDivs" id="Kartalla">
+        <header>Kartalla</header>
+        <ul class="area" id="karttaLista">
+        </ul>
+    </div>
+    <div class="sidewaysDivs" id=Joukkueet>
+        <header>Joukkueet</header>
+        <ul id="joukkueLista">
+        </ul>
+    </div>
+</div>
+</body>
+</html>

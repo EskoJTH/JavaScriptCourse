@@ -1,0 +1,14 @@
+#mapid { height: 720px; width: 720px;}
+
+.sidewaysDivs{
+    display: inline-block;
+    padding-right: 30px;
+    vertical-align: top;
+}
+.topContainer{
+    vertical-align: top;
+}
+.area {
+    height: 300px;
+    width: 130px;
+}
