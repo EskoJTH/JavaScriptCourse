@@ -1,0 +1,103 @@
+@media all and (min-width: 601px) {
+    .right {
+        float: right;
+    }
+
+    .rightBox{
+        float: right;
+    }
+
+    .rightBoxName{
+        float: right;
+    }
+
+    .padding {
+        padding-right: 50px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .listPadding {
+        padding-right: 50px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .listPaddingBottom {
+        padding-right: 50px;
+        overflow: hidden;
+        white-space: nowrap;
+        padding-bottom: 20px;
+    }
+
+    .Padding {
+        padding-right: 50px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .paddingBottom {
+        padding-right: 50px;
+        overflow: hidden;
+        white-space: nowrap;
+        padding-bottom: 20px;
+    }
+
+    .headerListPadding{
+        padding-right: 50px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .right {}
+    .rightBox{
+        width: 150px;
+    }
+    .rightBoxName{
+        width: 150px;
+    }
+    .padding {
+        white-space: nowrap;
+    }
+
+    .listPadding {
+        float: left;
+        text-align: right;
+        margin: 2px 2px;
+    }
+
+    .headerListPadding{
+        float:left;
+        text-align: left;
+        margin: 2px 2px;
+        display: inline;
+    }
+
+    .listPaddingBottom {
+
+        margin: 2px 2px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .paddingBottom {
+        white-space: nowrap;
+        margin-bottom: 10px;
+    }
+}
+
+input:invalid {
+    border: 1px dashed red;
+}
+
+input:valid {
+    border: 1px solid black;
+}
+.checkboxes:valid {
+    border: 20px solid black;
+}
+.checkboxes:valid {
+: 20px dashed red;
+}
