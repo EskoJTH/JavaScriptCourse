@@ -101,3 +101,10 @@ input:valid {
 .checkboxes:valid {
 : 20px dashed red;
 }
+.sideways {
+    float: left;
+}
+
+.inline{
+    display: inline;
+}
