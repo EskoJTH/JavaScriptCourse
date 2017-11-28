@@ -23,7 +23,6 @@ class App extends React.Component {
         let sarjaOnSenPituus = function () {
             let mappi = {};
             for (let sarja of data.sarjat){
-
                 mappi[sarja.id.toString()]= sarja["nimi"].toString();
             }
             for (let joukkue of data.joukkueet){
@@ -50,7 +49,7 @@ class App extends React.Component {
             jasenet: [],
             sarja: "",
             luontiaika: "",
-            leimausTapa: []
+            leimaustapa: []
             //"sarjat": sarjat
         };
 
@@ -76,8 +75,10 @@ class App extends React.Component {
             jasenet: joukkueNew.jasenet,
             sarja: joukkueNew.sarjat,
             luontiaika: joukkueNew.luontiaika,
-            leimausTapa: joukkueNew.leimausTapa
+            leimaustapa: joukkueNew.leimaustapa
         });
+
+
         let tempJoukkueet = this.state.joukkueet;
         for (let i=0; i<tempJoukkueet.length; i++){
             if (tempJoukkueet[i].nimi===joukkueNew.nimi)
@@ -103,7 +104,7 @@ class App extends React.Component {
                     jasenet={this.state.jasenet}
                     sarja={this.state.sarja}
                     luontiaika={this.state.luontiaika}
-                    leimausTapa={this.state.leimausTapa}
+                    leimaustapa={this.state.leimaustapa}
                     sarjat={this.sarjat}
                     joukkueenNimet={this.state.joukkueenNimet}
                     lisaa={this.alter.bind(this)
@@ -162,7 +163,7 @@ class Joukkue extends React.Component {
 
 
 /*
-{this.props.item.nimi["sarja"]} {this.props.item.leimausTapa}
+{this.props.item.nimi["sarja"]} {this.props.item.leimaustapa}
 
 
 
@@ -186,7 +187,7 @@ class LisaaJoukkue extends React.Component {
             jasenet: this.props.jasenet,
             sarja: this.props.sarja,
             luontiaika: this.props.luontiaika,
-            leimausTapa: this.props.leimausTapa,
+            leimausTapa: this.props.leimaustapa,
         };
     }
     componentWillReceiveProps(nextProps){
@@ -196,7 +197,7 @@ class LisaaJoukkue extends React.Component {
                 jasenet: nextProps.jasenet,
                 sarja: nextProps.sarja,
                 luontiaika: nextProps.luontiaika,
-                leimausTapa: nextProps.leimausTapa,
+                leimausTapa: nextProps.leimaustapa,
             });
         }
     }
@@ -207,7 +208,10 @@ class LisaaJoukkue extends React.Component {
         });
     }
 
+
     leimausValidate(evt) {
+        console.log(this.state.leimausTapa);
+        console.log(evt.target.value);
         let temp = this.state.leimausTapa;
         temp.push(evt.target.value);
         this.setState({
@@ -215,8 +219,9 @@ class LisaaJoukkue extends React.Component {
         });
     }
 
-    buttonClick(evt) {
 
+    buttonClick(evt) {
+        console.log(this.state.leimausTapa);
         if (this.state.nimi.trim()===""){
                 alert("Empty name is not fit");
             return;
@@ -241,7 +246,7 @@ class LisaaJoukkue extends React.Component {
 
         let nimi = null;
         let luontiaika = null;
-        let leimausTapa = null;
+        let leimausTapa = [];
         let sarja = null;
         if (this.state.nimi!=="")  nimi = this.state.nimi;
         if (this.state.luontiaika!=="")  luontiaika = this.state.luontiaika;
@@ -257,7 +262,7 @@ class LisaaJoukkue extends React.Component {
             "rastit": null,
             "pisteet": null,
             "matka": null,
-            "leimausTapa": leimausTapa,
+            "leimaustapa": leimausTapa,
             "luontiaika": luontiaika,
         };
 
@@ -404,8 +409,6 @@ class Jasen extends React.Component {
         this.setState({
             nimi: evt.target.value
         });
-        console.log("nimi on " + evt.target.value);
-
         this.props.evaluatechildren(this.props.n, evt.target.value);
 
     }
